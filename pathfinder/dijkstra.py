@@ -28,4 +28,4 @@ def dijkstra(graph, start):
             if new_cost < costs[neighbour]:
                 costs[neighbour] = new_cost
 
-    return start, costs
+    return costs
